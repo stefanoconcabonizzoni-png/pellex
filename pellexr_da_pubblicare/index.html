@@ -82,6 +82,7 @@ header.testata{position:fixed;inset:0 0 auto 0;z-index:30;display:flex;justify-c
 #hero .sotto{font-size:clamp(1.05rem,.95rem + .6vw,1.4rem);line-height:1.4;max-width:38rem;margin:0;text-shadow:0 0 18px rgba(18,15,12,.95),0 0 4px rgba(18,15,12,.9)}
 .selez img{width:clamp(11rem,17vw,15rem);height:auto;display:block}
 .selez .label{line-height:1.55;color:var(--arancio)}
+  @media (max-width:760px){.selez::before{display:none}.selez{text-shadow:0 0 14px rgba(18,15,12,.95),0 0 4px rgba(18,15,12,.9)}}
 @media (max-width:760px){.selez{position:static;margin-top:1.4rem;width:100%;max-width:none}#hero{flex-direction:column;align-items:flex-start;justify-content:flex-end}.suggerimento{display:none}}
 #hero .sotto{font-size:clamp(1.1rem,1rem + 1vw,1.5rem);max-width:28rem;margin:.4rem 0 0;color:#d6cfc3}
 .suggerimento{position:absolute;left:var(--mx);bottom:1.1rem;display:flex;gap:1.1rem;align-items:center;color:var(--grigio)}
